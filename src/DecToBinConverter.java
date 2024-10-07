@@ -1,19 +1,3 @@
-/*
-Greetings!
-
-As per your recommendations, I somewhat improved the Converter:
-
-1) Instead of mathematical formulas, I used Integer.toBinaryString(decimal) class and then looped
-through the String using charAt(index) for a nicer display.
-2) User should be able to enter any number of digits or characters , press Enter and An Error will be displayed
-depending on the input, so the user may try again until the input matches the conditions (This part I had trouble so far over 2 hours
-in trying to make it work). Basically I get a run time error "InputMismatchException". I tried to get input as String to be able to
-display an error message when user inputs anything else than digits, without crashing, but that is the current challenge at hand.
-3)Added Y/N prompt to either continue or exit the program. (User can input anything but only y or n are accepted,
-that is what I want for point 2)
-4)Thank you so much!
-5) Feels weird to have more comments than code :)
- */
 
 import java.util.Scanner;
 
